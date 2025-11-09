@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background: #f1f0ea;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #534b52;
+    color: white;
+}
