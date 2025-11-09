@@ -3,13 +3,35 @@ body {
     background: #f1f0ea;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 nav {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 10px;
     padding-left: 10px;
     background: #534b52;
     color: white;
+}
+
+.nav-name {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-icons {
+    display: flex;
+     gap: 20px;
+}
+
+.nav-icon {
+    color: white;
+    width: 30px;
+    height: 30px;
 }
