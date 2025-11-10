@@ -20,12 +20,12 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    text-align: center;
 }
 
 .profile-container {
-    margin-top: 20px;
+    margin: 20px auto auto auto;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -81,4 +81,18 @@ footer {
     justify-content: space-between;
     max-width: 800px;
     margin: 0 auto;
+
+}
+
+@media (min-width: 1024px) {
+    .profile-container {
+        margin: 20px 0 0 0;
+    }
+
+    .container {
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0;
+    }
 }
