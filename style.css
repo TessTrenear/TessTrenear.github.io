@@ -1,6 +1,19 @@
 body {
     margin: 0;
     background: #f1f0ea;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
 }
 
 .container {
@@ -19,7 +32,6 @@ body {
     background-image: url("images/profile.jpg");
     background-size: contain;
     box-shadow: 0 0 0 3px #534b52;
-
 }
 
 nav {
@@ -53,4 +65,20 @@ nav {
     color: white;
     width: 30px;
     height: 30px;
+}
+
+footer {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #534b52;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
 }
