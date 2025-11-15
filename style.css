@@ -86,7 +86,11 @@ footer {
     justify-content: space-between;
     max-width: 800px;
     margin: 0 auto;
+    align-items: end;
+}
 
+.footer-content p {
+    margin: 0
 }
 
 /* Projects page styling */
