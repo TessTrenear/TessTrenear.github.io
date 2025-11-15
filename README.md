@@ -1,6 +1,6 @@
-#  your_name_here - Portfolio Task
+#  Tess_Trenear - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](https://tesstrenear.github.io/)
 ​
 ## Project Requirements
 
@@ -10,6 +10,12 @@
 - [ ] Biography (at least 100 words)
 - [ ] "Projects" section
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
+
+Profile picture:
+
+Biography:
+
+Projects section:
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
@@ -19,10 +25,24 @@
 - [ ] Implements responsive design principles.
 - [ ] Uses semantic HTML.
 
+Two web pages:
+
+Version control - Git: 
+
+Deployed on Github pages: hosting a static website directly from a GitHub repository, making it live on the internet at a URL like username.github.io/repository-name. This process involves configuring the repository's settings to point to a specific branch and folder, and often uses automated workflows, such as GitHub Actions, to handle the deployment process whenever code is pushed. 
+
+Responsive design principles:
+
+Semantic HTML:
+
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
 - [ ] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+
+Hover state:
+
+Active state:
 ​
 ### Screenshots
 > Please include the following:
@@ -31,6 +51,47 @@
 > - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
 > 
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
+
+####  wireframeDesktopHomepage
+![Put a description of your image h](./images/wireframes/wireframeDesktopHomepage.png)
+! [Profile Image](./img/profile.jpg)
+
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
+
+####  image_title_goes_here 
+![Put a description of your image here](./relative_path_to_file)
+! [Profile Image](./img/profile.jpg)
 
 ####  image_title_goes_here 
 ![Put a description of your image here](./relative_path_to_file)
