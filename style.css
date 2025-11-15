@@ -5,6 +5,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 29px;
 }
 
 a {
