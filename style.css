@@ -58,6 +58,7 @@ nav {
 .nav-name {
     color: white;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .nav-icons {
@@ -88,6 +89,32 @@ footer {
 
 }
 
+/* Projects page styling */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 0 3px #534b52;
+    flex-shrink: 0;
+}
+
+/* Desktop styles go here */
 @media (min-width: 1024px) {
     .profile-container {
         margin: 20px 0 0 0;
@@ -98,5 +125,10 @@ footer {
         max-width: 800px;
         margin: 0 auto;
         padding: 0;
+    }
+
+    .project {
+        margin: 40px 0;
+        flex-direction: row;
     }
 }
