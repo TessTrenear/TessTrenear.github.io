@@ -53,6 +53,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     max-width: 800px;
+
+}
+
+.nav-content a:hover {
+    color: #2d232e;
+    transition: all;
+    transition-duration: 200ms;
 }
 
 .nav-name {
