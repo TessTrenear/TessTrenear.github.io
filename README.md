@@ -47,52 +47,49 @@ Active state:
 ### Screenshots
 > Please include the following:
 > - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> ** ADD SCREENSHOTS of: Mobile and Desktop Wireframes **
 > - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> 
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  wireframeDesktopHomepage
+####  Wireframe - Desktop Home Page
 ![Put a description of your image h](./images/wireframes/wireframeDesktopHomepage.png)
 ! [Profile Image](./img/profile.jpg)
 
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Wireframe - Desktop Projects Page
+![Put a description of your image here](./images/wireframes/wireframeDesktopProjectspage.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Wireframe - Mobile Home Page
+![Put a description of your image here](./images/wireframes/wireframeMobileHomepage.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Wireframe - Mobile Projects Page
+![Put a description of your image here](./images/wireframes/wireframeMobileProjectspage.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Mobile - Home Page
+![Put a description of your image here](./images/screenshots/mobileHomePage.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Mobile - Project Page 1
+![Put a description of your image here](./images/screenshots/mobileProjectsPage1.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Mobile - Project Page 2
+![Put a description of your image here](./images/screenshots/mobileProjectsPage2.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Desktop - Home Page
+![Put a description of your image here](./images/screenshots/desktopHomePage.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Desktop - Project Page 1
+![Put a description of your image here](./images/screenshots/desktopProjectPage1.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  Desktop - Project Page 2 
+![Put a description of your image here](./images/screenshots/desktopProjectPage2.png)
 ! [Profile Image](./img/profile.jpg)
 
-####  image_title_goes_here 
+####  Features - Hover State
 ![Put a description of your image here](./relative_path_to_file)
 ! [Profile Image](./img/profile.jpg)
