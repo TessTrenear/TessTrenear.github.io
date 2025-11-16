@@ -1,48 +1,53 @@
-#  Tess_Trenear - Portfolio Task
+#  Tess Trenear - Portfolio Task
 ​
 [My portfolio site](https://tesstrenear.github.io/)
 ​
 ## Project Requirements
 
 ### Content
- Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
-
-Profile picture:
+Profile picture: 
+- I have uploaded a professional profile picture
 
 Biography:
+- I have included lorem ipsum text as placeholder until I come up with content
 
 Projects section:
+- I have three project placeholders with image title and short description
+
+Links to external sites:
+- I added a link to my Github site
 ​
 ### Technical
- Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+Images: 
+- Created organised image directory structure.
 
-Two web pages:
+Pages:
+- Added a homepage (index.html) and a projects page with placeholders (projects.html). These are linked via the nav bar on top.
 
-Version control - Git: 
+Accessibility:
+- Used the chrome extension [accessibility insights](https://accessibilityinsights.io/docs/web/overview/) to ensure WCAG complaincy. 
+- Used landmarks (nav / main / footer)
+- Used proper headings in order i.e h1 -> h2 -> h3
+- used aria labels on links without text
 
-Deployed on Github pages: hosting a static website directly from a GitHub repository, making it live on the internet at a URL like username.github.io/repository-name. This process involves configuring the repository's settings to point to a specific branch and folder, and often uses automated workflows, such as GitHub Actions, to handle the deployment process whenever code is pushed. 
+Design:
+- Generated a colour pallette using [coolors](https://coolors.co/474448-2d232e-e0ddcf-534b52-f1f0ea) as recomended -> used this as a small design system in which no other colours were used outside ofg this pallette 
 
-Responsive design principles:
+Version control:
+- Version controlled using git 
+- workflow being: make new branch per task -> add and push to origin -> checkout to master, rebase and then push to origin main (main being source of truth)
+- Deployed to GHPages via main branch 
+- [link to my GitHub page](https://github.com/TessTrenear/TessTrenear.github.io)
 
-Semantic HTML:
+Responsiveness:
+- Used media query in styles.css 
+- mobile first apporach in which default styles were applied to mobile and then a defined desktop media query at 1024px defined desktop 
 
 ### Bonus (optional)
- Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 
 Hover state:
-
-Active state:
+- Added hover states in the nav 
+- added a transition all with duration animation property to make it the hover state look less janky + smooth colour change tranition 
 ​
 ### Screenshots
 > Please include the following:
@@ -50,46 +55,34 @@ Active state:
 > - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
 
 ####  Wireframe - Desktop Home Page
-![Put a description of your image h](./images/wireframes/wireframeDesktopHomepage.png)
-! [Profile Image](./img/profile.jpg)
-
+![This is a screenshot of my desktop home page wireframe](./images/wireframes/wireframeDesktopHomepage.png)
 
 ####  Wireframe - Desktop Projects Page
-![Put a description of your image here](./images/wireframes/wireframeDesktopProjectspage.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of my desktop projects page wireframe](./images/wireframes/wireframeDesktopProjectspage.png)
 
 ####  Wireframe - Mobile Home Page
-![Put a description of your image here](./images/wireframes/wireframeMobileHomepage.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of my mobile home page wireframe](./images/wireframes/wireframeMobileHomepage.png)
 
 ####  Wireframe - Mobile Projects Page
-![Put a description of your image here](./images/wireframes/wireframeMobileProjectspage.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of my mobile projects page wireframe](./images/wireframes/wireframeMobileProjectspage.png)
 
 ####  Mobile - Home Page
-![Put a description of your image here](./images/screenshots/mobileHomePage.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of home page in mobile size](./images/screenshots/mobileHomePage.png)
 
-####  Mobile - Project Page 1
-![Put a description of your image here](./images/screenshots/mobileProjectsPage1.png)
-! [Profile Image](./img/profile.jpg)
+####  Mobile - Projects Page 1
+![This is a screenshot of projects page in mobile size](./images/screenshots/mobileProjectsPage1.png)
 
-####  Mobile - Project Page 2
-![Put a description of your image here](./images/screenshots/mobileProjectsPage2.png)
-! [Profile Image](./img/profile.jpg)
+####  Mobile - Projects Page 2
+![This is a screenshot of projects page in mobile size](./images/screenshots/mobileProjectsPage2.png)
 
 ####  Desktop - Home Page
-![Put a description of your image here](./images/screenshots/desktopHomePage.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of home page in desktop size](./images/screenshots/desktopHomePage.png)
 
 ####  Desktop - Project Page 1
-![Put a description of your image here](./images/screenshots/desktopProjectPage1.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of projects page in desktop size](./images/screenshots/desktopProjectPage1.png)
 
 ####  Desktop - Project Page 2 
-![Put a description of your image here](./images/screenshots/desktopProjectPage2.png)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of projects page in desktop size](./images/screenshots/desktopProjectPage2.png)
 
 ####  Features - Hover State
-![Put a description of your image here](./relative_path_to_file)
-! [Profile Image](./img/profile.jpg)
+![This is a screenshot of the navigation in hover state for the projects page button](./images/features/hoverstateNavigation.png)
