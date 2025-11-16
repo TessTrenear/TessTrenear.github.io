@@ -21,6 +21,9 @@ Links to external sites:
 Images: 
 - Created organised image directory structure.
 
+Font: 
+- Used Roboto font from google fonts.
+
 Pages:
 - Added a homepage (index.html) and a projects page with placeholders (projects.html). These are linked via the nav bar on top.
 
@@ -28,31 +31,28 @@ Accessibility:
 - Used the chrome extension [accessibility insights](https://accessibilityinsights.io/docs/web/overview/) to ensure WCAG complaincy. 
 - Used landmarks (nav / main / footer)
 - Used proper headings in order i.e h1 -> h2 -> h3
-- used aria labels on links without text
+- Used aria labels on links without text
 
 Design:
 - Generated a colour pallette using [coolors](https://coolors.co/474448-2d232e-e0ddcf-534b52-f1f0ea) as recomended -> used this as a small design system in which no other colours were used outside ofg this pallette 
 
 Version control:
 - Version controlled using git 
-- workflow being: make new branch per task -> add and push to origin -> checkout to master, rebase and then push to origin main (main being source of truth)
+- Workflow being: make new branch per task -> add and push to origin -> checkout to master, rebase and then push to origin main (main being source of truth)
 - Deployed to GHPages via main branch 
 - [link to my GitHub page](https://github.com/TessTrenear/TessTrenear.github.io)
 
 Responsiveness:
 - Used media query in styles.css 
-- mobile first apporach in which default styles were applied to mobile and then a defined desktop media query at 1024px defined desktop 
+- Mobile first approach in which default styles were applied to mobile and then a defined desktop media query at 1024px defined desktop 
 
 ### Bonus (optional)
 
 Hover state:
 - Added hover states in the nav 
-- added a transition all with duration animation property to make it the hover state look less janky + smooth colour change tranition 
+- Added a transition all with duration animation property to make it the hover state look less janky + smooth colour change tranition 
 ​
 ### Screenshots
-> Please include the following:
-> - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
 
 ####  Wireframe - Desktop Home Page
 ![This is a screenshot of my desktop home page wireframe](./images/wireframes/wireframeDesktopHomepage.png)
